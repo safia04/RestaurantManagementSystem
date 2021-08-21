@@ -1,0 +1,152 @@
+
+*p,*h1,*h2,*h3{
+    color: black;
+  }
+  *p{
+    font-size:1vw;
+  }
+  ul li a{
+    font-size: 2vw;
+    font-weight: bold;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  ul a{
+    font-size: 3vw;
+    color: black;
+  }
+  
+  .responsive {
+    width: 100%;
+    height: auto;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .container {
+    position: relative;
+    text-align: center;
+    width: 100%;
+  }
+  #home h1,h2{
+      text-align: center;
+      color: bisque;
+      font-family: 'Castoro', serif;
+  }
+  #home p{
+      text-align: center;
+      font-size:2vw;
+      color: blanchedalmond;
+  }
+  #contact h1,h2,h3,div{
+      text-align: center;
+      font-size:2vw;
+      color:white;
+  }
+  #about h1,p,h3{
+      font-family: 'Castoro', serif;
+      /* font-style: italic; */
+      padding: 5px;
+  }
+  #about h1{
+    color: bl;
+  }
+  #about h1{
+    color: black;
+    text-align: center;
+  }
+  #menu h2{
+    color: brown;
+    font-weight: bold;
+    font-size: 3vw;
+    /* font-style: italic; */
+  }
+  #menu p{
+    font-size: 1vw;
+    color: black;
+  }
+  #menu h3{
+    font-size: 1vw;
+    color: black;
+  }
+  #menu h1{
+    font-size: 6vw;
+    color: black;
+    font-weight: bold;
+    font-family: 'Castoro', serif;
+    /* font-style: italic; */
+  }
+  #services h2{
+    color: brown;
+    font-weight: bold;
+    font-size: 3vw;
+  }
+  #services p{
+    font-size: 1vw;
+    color: black;
+  }
+  #services h3{
+    font-size: 2vw;
+    color: black;
+  }
+  #services h1{
+    font-size: 6vw;
+    color: black;
+    /* font-weight: bold; */
+    font-family: 'Castoro', serif;
+    /* font-style: italic; */
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  @media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+    }
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  #menu h1,h2,h3,p{
+      font-family: 'Castoro', serif;
+      color: black;
+  }
+  #contact{
+      align-items: center;
+      justify-content: center;
+      font-family: 'Castoro', serif;
+  }
+  .h-primary{
+      font-size:6vw;
+  }
+  .h-secondary{
+    font-size:3vw;
+  }
+  .h-tertiary{
+    font-size:2vw;
+  }
+  .btn1{
+      padding: 6px 20px;
+      border: 2px solid firebrick;
+      background-color: bisque;
+      color: firebrick;
+      margin: 17px;
+      font-family: 'Castoro', serif;
+      font-size:2vw;
+      border-radius: 6px;
+      cursor: pointer;
+  }
+  

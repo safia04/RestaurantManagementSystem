@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url('img/orderBG.jpeg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%; 
+            font-size: larger;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bolder;
+        }
+
+        h3{
+            color: #FFFFFF;
+            background-color: #7A000A;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            width: 50%;
+            padding: 5px;
+            border-radius: 6px;
+        }
+        #submit{
+            color: #FFFFFF;
+            background-color: #7A000A;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            width: 200%;
+            padding: 5px;
+            border-radius: 6px;
+        }
+        #result{
+            color: #7A000A;
+            text-align: center;
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+        }  
+        .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+  }
+    
+        </style>
+</head>
+<body>
+    <center>
+    
+    <section class="container centered";>
+        <!-- <center> -->
+        <form onsubmit="return calculate()">
+            <h3>TASTY  TIME</h3>
+            <table>
+                <tr>
+                    <td>Name</td>
+                    <td><input type="text" id="name" placeholder="Enter your name" required></td>
+                </tr>
+                <tr>
+                    <td>Phone Number</td>
+                    <td><input type="text" id="phonenumber" placeholder="Enter your phone number" required></td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td><textarea id="address" cols="30" rows="10"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Order Date</td>
+                    <td><input type="text" id="orderdate" onfocus="today()" required></td>
+                </tr>
+                <tr>
+                    <td>Size</td>
+                    <td>
+                        <select id="size">
+                        <option value="Regular">Size</option>
+                        <option value="Medium">Medium</option>
+                        <option value="Large">Large</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Food Item</td>
+                    <td>
+                        <select id="foodtype">
+                        <option value="Dessert">Dessert</option>
+                        <option value="Salad">Salad</option>
+                        <option value="Smoothie">Smoothie</option>
+                        <option value="Soup">Soup</option>
+                        <option value="Chowmein">Chowmein</option>
+                        <option value="Pizza">Pizza</option>
+                        <option value="Burger">Burger</option>
+                        <option value="Paneer Tikka">Paneer Tikka</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Quantity</td>
+                    <td><input type="number" id="quantity" required></td>
+                </tr>
+                <tr>
+                    <td><button type="submit" id="submit">CONFIRM ORDER</button></td>
+                </tr>
+            </table>
+            <div id="result"></div>
+
+        </form>
+    <script src="javaScript/order.js"></script>
+</center>
+</section>
+</body>
+</html>

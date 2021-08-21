@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Tasty Time</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="CSS/style2.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&family=Lobster&display=swap" rel="stylesheet">
+
+</head>
+<body style="background: url('img/bgImg8.webp') no-repeat center center/cover;">
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Tasty Time</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#home"><span class="glyphicon glyphicon-home"></span>Home</a></li>
+        <li><a href="#services"><span class="glyphicon glyphicon-map-marker"></span>Services</a></li>
+        <li><a href="#custReviews"><span class="glyphicon glyphicon-user"></span>Reviews</a></li>
+        <li><a href="#menu"><span class="glyphicon glyphicon-glass"></span>Menu</a></li>
+        <li><a href="#about"><span class="glyphicon glyphicon-book"></span>About Us</a></li>
+        <li><a href="#contact"><span class="glyphicon glyphicon-earphone"></span>Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container" style="background-color: rgb(165, 42, 42);">
+  <img src="img/bgImg1.jpeg" alt="Home" style="width:100%">
+    <div class="centered">
+        <section id="home">
+            <h1 class="h-primary">Tasty Time</h1>
+            <h2 class="h-secondary">Your Happy Place!</h2>
+            <h3 class="h-tertiary"Wake up your taste buds.></h3>
+            <p>Eat. Drink. Love.</p>
+            <button class="btn1" onclick="document.location='order.html'">Order Now</button>
+        </section>
+    </div>
+  </div>
+
+  <div class="container" style="background: url('img/bgImg8.webp') no-repeat center center/cover;"> 
+        <section id="about">
+          <h1 class="h-primary">Welcome to Tasty Time</h1>
+          <h3 class="h-tertiary">A celebration of Vancouver's cultural diversity and natural environment.
+          </h3>
+          <p>Tasty Time is about consideration—we welcome everybody. We trust balance and not fanaticism is the way to achieving your maximum capacity. Regardless of your present way of life, our main goal is basically to move you to carry on with a real existence loaded up with wellbeing and imperativeness.
+              We understand that body needs something fresh to keep it healthy and energetic.</p>
+          <p>Our staff is enthusiastic about what they do and are ready and ready to help with any inquiries identifying with our items and their employments. We pride ourselves on an exclusive expectation of cleanliness and resolve to full consistence with all predominant security enactment.</p>    
+        </section>
+  </div>
+
+  <div class="container">
+    <section id="services">
+    <h1 class="h-primary center">Our Services</h1>
+        <div class="row" style="background-color: aliceblue;">
+            <div class="col-md-4">
+                <div class="thumbnail">
+                <img src="img/foodOrdering.jpeg" alt="Food Order" style="width:100%">
+                <h2 class="h-secondary center">Food Ordering</h2>
+                <h3 class="h-tertiory">We accept party orders for all occasions.</h3>
+                <p> We cook in our kitchen and can serve buffet lunches in your premises. The menu is customised for your needs.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                <img src="img/foodCatering.jpeg" alt="Food Catering" style="width:100%">
+                <h2 class="h-secondary center">Food Catering</h2>
+                <h3 class="h-tertiary">We offer a wide range of catering services,</h3>
+                <p>from drop-off to full-service catering, launch parties to weddings.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                <img src="img/deliver.webp" alt="Food Delivery" style="width:100%">
+                <h2 class="h-secondary center">Food Delivery</h2>
+                <h3 class="h-tertiary">We provide the fastest delivery services.</h3>
+                <p>We deliver fresh foods.</p>
+                </div>
+            </div>
+          </div>          
+     </section> 
+  </div>
+
+  <div class="container">
+  <section class="reviews-container">
+    <h1 class="h-primary center">Customer Reviews</h1>
+    <div class="customers-container"  id="custReviews">
+
+        <div class="reviews">
+          <q>We had lunch here a few times,The servers here are just wonderful and have great memories it seems.</q>
+          <p>- Aarav </p>
+        </div>
+        
+        <div class="reviews">
+          <q>The food was fresh, properly prepared and a great value for the price. We highly recommend it. </q>
+          <p>- Rahil</p>
+        </div>
+        
+        <div class="reviews">
+          <q>The most amazing food ever! And also the staff is so nice to everyone. I highly recommend buying food from here. </q>
+          <p>- Saalima</p>
+        </div>
+
+        <div class="reviews">
+          <q>This place knows how to satisfy their clients. Always with a super nice mindset. The food is affordably priced, always delicious and clean.</q>
+          <p>- Darsh</p>
+        </div>
+
+        <div class="reviews">
+          <q>What can I say…the place is fantastic! Great family, great breakfast.</q>
+          <p>- Advika</p>
+        </div>
+
+        
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+        
+    </div>
+        
+    <div class="dot-container">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+</section>
+</div>
+
+<div class="container">
+  <section id="menu">
+  <h1 class="h-primary center">Our Special Menu</h1>
+  
+      <div class="row" style="background: url('../img/bgImg2.webp') no-repeat center center/cover;"> 
+          <div class="col-md-3">
+              <div class="thumbnail">
+                <img src="img/soup.jpeg" alt="Soup" style="width:100%">  
+                <h2 class="h-secondary center">Soup</h2>  
+                <h3 class="h-tertiary">The joy of Best Soup</h3>
+              </div>
+          </div>
+          <div class="col-md-3">
+              <div class="thumbnail">
+                <img src="img/salad.webp" alt="Salad" style="width:100%">
+                <h2 class="h-secondary center">Salad</h2>  
+                <h3 class="h-tertiary">Eat clean — eat green.</h3>
+              </div>
+          </div>
+          <div class="col-md-3">
+              <div class="thumbnail">
+                <img src="img/smoothie.webp" alt="Smoothie" style="width:100%">
+                <h2 class="h-secondary center">Smoothie</h2>  
+                <h3 class="h-tertiary">Sip of happy Delights.</h3>
+              </div>
+          </div>
+          <div class="col-md-3">
+            <div class="thumbnail">
+              <img src="img/dessert.webp" alt="Dessert" style="width:100%">
+              <h2 class="h-secondary center">Dessert</h2>  
+              <h3 class="h-tertiary">A new Joy of moments</h3>
+            </div>
+        </div>
+        </div>          
+   </section> 
+</div>
+
+<div class="container" style="background-color: dimgrey;">
+  <section id="contact"></section>
+  <img src="img/bgImg2.jpeg" alt="Food" style="width:100%;">
+  <div class="centered">
+        <h2 class="h-secondary">Tasty Time</h2>
+        <div>Hajipur</div>
+        <div>Bihar, 844101</div>
+        <h2 class="h-secondary">For Customer Care and Service Call</h2>
+        <div>Mobile : 7676543211</div>
+        <div><a href="mailto:akbarsafia04@gmail.com">Send Mail</div>
+  </div>
+</section>
+</div>
+<script src="javaScript/javaScript1.js"></script>
+</body>
+</html>
