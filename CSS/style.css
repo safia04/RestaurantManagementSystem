@@ -1,8 +1,8 @@
 
-*p,*h1,*h2,*h3{
+p,h1,h2,h3{
     color: black;
   }
-  *p{
+  p{
     font-size:1vw;
   }
   ul li a{
